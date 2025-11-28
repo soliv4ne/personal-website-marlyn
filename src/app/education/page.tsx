@@ -6,7 +6,6 @@ export default function Education() {
   return (
     <main className="min-h-screen bg-pink-200 text-gray-900 px-12 py-16 flex flex-col items-center">
 
-      {/* TITLE */}
       <motion.h1
         initial={{ opacity: 0, y: -15 }}
         animate={{ opacity: 1, y: 0 }}
@@ -18,7 +17,6 @@ export default function Education() {
 
       <div className="w-full max-w-5xl space-y-10">
 
-        {/* TERTIARY */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
@@ -31,7 +29,6 @@ export default function Education() {
           <p className="italic text-gray-700 mt-1">S/Y 2024 - Present</p>
         </motion.div>
 
-        {/* SECONDARY */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
@@ -40,14 +37,12 @@ export default function Education() {
         >
           <h2 className="text-2xl font-bold mb-1">Secondary</h2>
 
-          {/* Senior High / High School */}
           <div className="mb-6">
             <p className="text-lg font-semibold">Carolina National High School</p>
             <p className="text-gray-800">Zone 5, Carolina, Naga City</p>
             <p className="italic text-gray-700 mt-1">S/Y 2018 - 2022</p>
           </div>
 
-          {/* Another Secondary (AMA) */}
           <div>
             <p className="text-lg font-semibold">AMA Computer Learning Center</p>
             <p className="text-gray-800">
@@ -57,7 +52,6 @@ export default function Education() {
           </div>
         </motion.div>
 
-        {/* PRIMARY */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}

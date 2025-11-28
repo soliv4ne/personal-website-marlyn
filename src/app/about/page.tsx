@@ -7,7 +7,6 @@ export default function About() {
   return (
     <main className="min-h-screen bg-pink-200 text-gray-900 flex items-center justify-between px-12 py-16">
 
-      {/* LEFT SIDE — TEXT */}
       <motion.div
         initial={{ opacity: 0, x: -30 }}
         animate={{ opacity: 1, x: 0 }}
@@ -25,7 +24,6 @@ export default function About() {
 
       </motion.div>
 
-      {/* RIGHT SIDE — YOUR PICTURE */}
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -33,7 +31,7 @@ export default function About() {
         className="w-1/2 flex justify-center"
       >
         <Image
-          src="/me.jpg" // replace with your actual image file
+          src="/me.jpg" 
           alt="My Photo"
           width={350}
           height={350}

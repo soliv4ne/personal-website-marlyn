@@ -1,9 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-/* -------------------------------
-   FIXED: .theme.inline (valid CSS)
--------------------------------- */
 .theme.inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -44,9 +41,6 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
-/* -----------------------------------------
-   LIGHT THEME (DEFAULT)
------------------------------------------ */
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
@@ -82,9 +76,6 @@
   --sidebar-ring: oklch(0.708 0 0);
 }
 
-/* -----------------------------------------
-   DARK THEME
------------------------------------------ */
 .dark {
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
@@ -119,9 +110,6 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
-/* -----------------------------------------
-   BASE STYLES (SAFE)
------------------------------------------ */
 @layer base {
   body {
     background-color: var(--background);

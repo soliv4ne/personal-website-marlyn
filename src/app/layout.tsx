@@ -25,12 +25,10 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-pink-300 text-gray-900">
 
-        {/* HEADER */}
         <nav className="w-full px-10 py-6 bg-pink-400 text-white flex justify-between items-center shadow-lg">
 
           <h1 className="text-xl font-bold">My Website</h1>
 
-          {/* NAV LINKS */}
           <div className="flex gap-4">
             {navItems.map((item) => {
               const isActive = pathname === item.href;
@@ -52,7 +50,6 @@ export default function RootLayout({
           </div>
         </nav>
 
-        {/* PAGE CONTENT ANIMATION */}
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}

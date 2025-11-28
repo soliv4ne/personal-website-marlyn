@@ -7,7 +7,6 @@ export default function Hobbies() {
   return (
     <main className="min-h-screen bg-pink-200 text-gray-900 flex flex-col items-center px-10 py-16">
 
-      {/* MAIN TITLE */}
       <motion.h1
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -17,10 +16,8 @@ export default function Hobbies() {
         My Hobbies
       </motion.h1>
 
-      {/* 3-COLUMN HOBBY GRID */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 w-full max-w-6xl">
 
-        {/* HOBBY 1 */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -41,7 +38,6 @@ export default function Hobbies() {
           </p>
         </motion.div>
 
-        {/* HOBBY 2 */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -49,7 +45,7 @@ export default function Hobbies() {
           className="flex flex-col items-center text-center"
         >
           <Image
-            src="/watching.jpg" 
+            src="/series.jpg" 
             alt="Watching Thai Series"
             width={250}
             height={250}
@@ -62,7 +58,6 @@ export default function Hobbies() {
           </p>
         </motion.div>
 
-        {/* HOBBY 3 */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -70,16 +65,16 @@ export default function Hobbies() {
           className="flex flex-col items-center text-center"
         >
           <Image
-            src="/singing.jpg" 
-            alt="Singing"
+            src="/poetry.jpg" 
+            alt="Writing Poetry"
             width={250}
             height={250}
             className="object-cover rounded-lg border-4 border-pink-500 shadow-lg"
           />
 
-          <p className="mt-4 text-lg font-semibold">Singing</p>
+          <p className="mt-4 text-lg font-semibold">Writing Poetry</p>
           <p className="mt-1 text-sm text-gray-700 max-w-[220px]">
-            Singing lets me express myself freely. It lifts my mood and gives me confidence.
+            I love writing poetry, it's my way of expressing thoughts and emotions I can't say aloud.
           </p>
         </motion.div>
 
